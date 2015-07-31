@@ -59,11 +59,7 @@ namespace FileStreamServer
 					m_inputStream.Dispose();
 					m_inputStream = null;
 				}
-			}            
-			else
-            {
-                m_conn.Peer.FlushSendQueue();
-            }
+			}
 		}
 	}
 }
