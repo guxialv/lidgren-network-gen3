@@ -60,10 +60,6 @@ namespace FileStreamServer
 					m_inputStream = null;
 				}
 			}
-			else
-			{
-			    m_connection.Peer.FlushSendQueue();
-			}
 		}
 	}
 }
